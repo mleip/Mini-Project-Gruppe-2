@@ -1,13 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
+
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Michael´s Seite</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta author="Michael">
+     
+    <style>
+        * {
+            color: #999999;
+            font-size: 20px;
+            font-weight: 400;
+            box-sizing: border-box;
+            font-family: 'Monteserat', Arial, sans-serif;
+        }
+ 
+        header,
+        nav,
+        section,
+        aside,
+        footer {
+            text-align: center;
+            border-radius: 7px;
+            padding: 25px;
+            box-shadow: 0 5px 15px rgba(0,0,0,.08);
+        }
+ 
+        header {
+            width: 25%;
+            margin: 25px 25px 25px 25px;
+            display: inline-block;
+        }
+ 
+        nav {
+            width: calc(75% - 75px);
+            margin: 25px 25px 25px 0px;
+            float: right;
+        }
+ 
+        aside {
+            width: 25%;
+            float: left;
+            min-height: 517px;
+        }
+ 
+        section {
+            float: left;
+            width: calc(75% - 75px);
+            margin: 0 25px 25px 25px;
+        }
+ 
+        section header,
+        section article,
+        section footer {
+            width: 100%;
+            border-radius: 7px;
+            border: 1px solid #e5e5e5;
+            box-shadow: none;
+            margin: 25px 0px 0px 0px;
+            padding: 50px;
+        }
+ 
+        footer {
+            width: 96.5%;
+            margin: 25px 25px 0px 25px;
+            clear: both;
+        }
+    </style>
 </head>
 <body>
-    <a href="Startseite.html" class="link">zurück zur Startseite</a>
-    <h1>Willkommen auf meiner Seite</h1>
+<main>
+  <header>
+    <h1><b>Michael Leipner</b></h1>
+  </header>
+ 
+  <nav>
+    <a href="https://www.facebook.com/michael.leipner" class="link">Hier gehts zur meiner Facebookseite</a><!-- Button für email -->
+  </nav>
+ 
+  <section>
+     <!-- Abschnitte der Website -->
+    <header>Mini-Projekt des Lehrgangs</header> 
+    <article>Mein Motto: Weniger ist mehr!</article> 
+    <footer>Mitglieder der Gruppe 2: Dennis, Michael, Gabriel</footer> 
+  </section>
+ 
+  <aside>
+    <img src="Foto.jpg" height="450" width="282" alt="Michael" title="Michael">
+  </aside>
+ 
+  <footer>
+    Grüße gehen raus an alle angehenden DevOps da draußen! 
+  </footer>
+</main>   
 </body>
 </html>
